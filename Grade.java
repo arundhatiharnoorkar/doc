@@ -1,4 +1,4 @@
-public class Calculator {
+public class Grade {
 
     public int add(int a, int b) {
         return a + b;
@@ -20,7 +20,7 @@ public class Calculator {
     }
 
     public static void main(String[] args) {
-        Calculator calc = new Calculator();
+        Grade calc = new Grade();
 
         System.out.println(calc.add(10, 5));
         System.out.println(calc.subtract(10, 5));
